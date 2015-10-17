@@ -1,0 +1,36 @@
+.p {
+    background: url(../images/maket.jpg) no-repeat; /* Ваш макет */
+    width: 1000px;/* ширина макета */
+    height: 1415px;/* высота макета*/
+    left: calc(50% - 500px);/* второе значение - половина, от ширины макета*/
+    position: absolute;
+    top: 0;
+    opacity: 0.4 !important;
+    transition: .3s;
+    z-index: 97;
+}
+
+#p {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 200px;
+    height: 75px;
+    background: #c36c2c;
+    z-index: 99;
+    cursor: pointer;
+    text-align: center;
+    font-size: 25px;
+    line-height: 0px;
+    color: #c36c2c;
+    left: -150px;
+    vertical-align: middle;
+    font-weight: 700;
+    transition: .3s
+}
+
+#p:hover {
+    left: 0;
+    line-height: 80px;
+    background: #88d3c2;
+}
